@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
   <title>ToDo List</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <img src="images/kfc.png" width="10%">
+  
+  <title>ToDoリスト</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,6 +20,7 @@
 
   <main>
     <section id="tasks">
+
       <h2>Pending Tasks</h2>
       <ul>
         <table>
@@ -28,12 +37,33 @@
             <td><li>Check your e-mail</li></td>
           </tr>
         </table>
+
+      <h2>未完了タスク</h2>
+      <div class="task-category">
+        <h3>仕事</h3>
+        <ul>
+          <li>レポートを提出する</li>
+          <li>メールを確認する</li>
+        </ul>
+      </div>
+      <div class="task-category">
+        <h3>プライベート</h3>
+        <ul>
+          <li>部屋を片付ける</li>
+          <li>ゲームのデイリー任務</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="completed-tasks">
+      <h2>完了済み</h2>
+      <ul>
+        <li>ゴミ出し</li>
+        <li>犬の散歩</li>
+
       </ul>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 ToDo Inc.</p>
-  </footer>
 </body>
 </html>
